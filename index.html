@@ -1,125 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=s, initial-scale=1.0">
-    <title>GastroMex para el mundo</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>GASTROMEX</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
-
 <body>
-    <nav class="menu">
-        <section class="menu_container">
-            <h1 class="menu_logo">Gastro Mex</h1>
-            <ul class="menu_links">
-                <li class="menu-item">
-                    <a href="" class="menu_link">Inicio</a>
-                </li>
-
-                <li class="menu-item menu_item--show">
-                    <a href="" class="menu_link">Acerca de <img src="./assets/svg/arrow.svg" class="menu_arrow"
-                            alt=""></a>
-                    <ul class="menu_nesting">
-                        <li class="menu_inside">
-                            <a href="" class="menu_link menu_link--inside">Mas sobre Mexico</a>
-                        </li>
-                        <li class="menu_inside">
-                            <a href="" class="menu_link menu_link--inside">Gastronomia del mundo</a>
-                        </li>
-
-                    </ul>
-                </li>
-
-
-            <li class="menu-item">
-                <a href="" class="menu_link">Contacto</a>
-            </li>
-            </ul>
-            <div class="menu_hamburger">
-                <img class="menu_img" src="" alt="">
-            </div>
-        </section>
-
-    </nav>
-    <div class="banner">
-        <div class="content tema-1 active">
-            <img src="./assets/images/img2-tema1.jpg" class="banner-img" alt="">
-
-            <div class="button">
-                <a href="./gastronomia.html">Conocer Mas</a>
-            </div>
-        </div>
-
-        <div class="content tema-2 ">
-            <img src="./assets/images/img2-tema2.jpg" class="banner-img" alt="">
+    <header>
+        <div class="container">
+            <p class="logo">Gastromex Para El Mundo</p>
             
-
-            <div class="button">
-                <a href="./normative.html">Conocer Mas</a>
-            </div>
         </div>
-        <div class="content tema-3">
-            <img src="./assets/images/img4-tema3.jpg" class="banner-img" alt="">
-            <h4>
-                Tema 1
-            </h4>
+    </header>
 
-            <div class="button">
-                <a href="">Conocer Mas</a>
-            </div>
-        </div>
-
-        <div class="content tema-4 ">
-            <img src="./assets/images/img1-tema4.jpg" class="banner-img" alt="">
-            <h4>
-                Tema 2
-            </h4>
-
-            <div class="button">
-                <a href="">Conocer Mas</a>
-            </div>
-        </div>
-        <div class="carousel-box">
-            <div class="carousel">
-                <div class="carousel-item" onClick="changeBg('img1-tema1.jpg','tema-1');">
-                    <img src="./assets/images/img1-tema1.jpg" alt="">
-                    <h4>Gastronomia en Mexico</h4>
-                </div>
-                <div class="carousel-item" onClick="changeBg('img3-tema2.jpg','tema-2');">
-                    <img src="./assets/images/img2-tema2.jpg" alt="">
-                    <h4>Normativa de higiene</h4>
-                </div>
-                <div class="carousel-item" onClick="changeBg('img2-tema3.jpg','tema-3');">
-                    <img src="./assets/images/img1-tema3.jpg" alt="">
-                    <h4>Cortes utilizados en Mexico.</h4>
-                </div><div class="carousel-item" onClick="changeBg('img1-tema4.jpg','tema-4');">
-                    <img src="./assets/images/img1-tema4.jpg" alt="">
-                </div>
-            </div>
-
-        </div>
-    </div>
+    <section id="hero">
+        <h1>PULSA EL BOTON PARA EMPEZAR</h1>
+        <a class="btn" href="Inicio.html">Continuar</a>
+    </section>
 
 
-
-    <script src="./assets/js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            
-    <script>
-
-        $(document).ready(function () {
-            $('.carousel').carousel();
-        });
-
-    </script>
-
+  
 </body>
-
 </html>
